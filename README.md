@@ -13,7 +13,7 @@ subnet_id
 keypair name
 
 new security group (virtual firewall for your EC2 instances to control incoming and outgoing traffic):
-- outbond / egress 0.0.0.0/0 (only instance)
+- outbond / egress 0.0.0.0/0 (only the instance, no restrictions at all)
 - inbound / igress 22, 80
 
 ami id image OS 
